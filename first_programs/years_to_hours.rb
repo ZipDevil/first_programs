@@ -12,7 +12,7 @@ puts "That's #{hours} hours."
 puts "Enter a number of decades."
 decades = gets.chomp # user input as a string
 decades = decades.to_i # convert string into integer
-minutes = decades * 365 * 24 * 60
+minutes = decades * 10 * 365 * 24 * 60
 minutes = minutes.to_s # convert integer into string so that we can print it on the IDE
 puts "That's #{minutes} minutes."
 
